@@ -3,7 +3,7 @@ import platform
 import subprocess
 import folder_paths
 from pydub import AudioSegment
-from moviepy.editor import VideoFileClip,AudioFileClip
+from moviepy import VideoFileClip,AudioFileClip
 
 parent_directory = os.path.dirname(os.path.abspath(__file__))
 
